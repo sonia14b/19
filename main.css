@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: antiquewhite;
+  height: 370vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.photo-wrapper {
+  width: 25%;
+  padding: 12px;
+}
+
+.photo {
+  box-shadow: rgba(105, 10, 134, 0.829) 0px 10px 36px 0px,
+    rgba(8, 241, 132, 0.849) 0px 0px 0px 1px;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+}
